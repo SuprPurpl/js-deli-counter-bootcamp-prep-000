@@ -27,7 +27,9 @@ function nowServing(array) {
 function currentLine(array){
 var line=[];
   if(array>[]){
-    for(let i=0;i<array.length;)
+    for(let i=0;i<array.length;i++){
+      
+    }
   }
 }
 
