@@ -10,6 +10,7 @@ array.push(entry);
 return `Welcome, ${entry}. You are number ${array.length} in line.`;
 }
 
+
 //Step 2: "Get served"
 
 function nowServing(array) {
@@ -21,8 +22,15 @@ function nowServing(array) {
 }
 
 
-function emptyline(){
-  return "There is nobody waiting to be served!"
+//Step 3: 'Current Line'
+
+function currentLine(array){
+if(array>[]) {
+    return 
+  }else{
+    return 
+  }
+}
 }
 
 
