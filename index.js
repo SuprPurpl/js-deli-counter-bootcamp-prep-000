@@ -26,7 +26,7 @@ function nowServing(array) {
 
 function currentLine(array){
 if(array>[]) {
-    return 
+    return  
   }else{
     return "The line is currently empty."
   }
