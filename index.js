@@ -24,12 +24,16 @@ function nowServing(array) {
 
 //Step 3: 'Current Line'
 
-function currentLine(array){
-if(array>[]) {
-    return  
-  }else{
-    return "The line is currently empty."
-  }
+function currentLine(array) {
+var line=[];
+	if(array>[]) {
+  		for(var i=0; i<array.length; i++) {
+      	line.push(` ${i+1}. ${array[i]}`);
+    	}
+    	return "The line is currently:" + line;
+   }else{
+      	return "The line is currently empty."
+		}
 }
 }
 
