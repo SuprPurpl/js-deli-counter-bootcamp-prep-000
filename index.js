@@ -25,12 +25,12 @@ function nowServing(array) {
 //Step 3: 'Current Line'
 
 function currentLine(array) {
-var line=[];
+var queue=[];
 	if(array>[]) {
   		for(var i=0; i<array.length; i++) {
-      	line.push(` ${i+1}. ${array[i]}`);
+      	queue.push(` ${i+1}. ${array[i]}`);
     	}
-    	return "The line is currently:" + line;
+    	return "The line is currently:" + queue;
    }else{
       	return "The line is currently empty."
 		}
