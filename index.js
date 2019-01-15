@@ -24,8 +24,11 @@ function nowServing(array) {
 
 //Step 3: 'Current Line'
 
-
-
-
+function currentLine(array){
+var line=[];
+  if(array>[]){
+    for(let i=0;i)
+  }
+}
 
 
