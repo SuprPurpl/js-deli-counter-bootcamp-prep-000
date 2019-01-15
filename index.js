@@ -15,8 +15,7 @@ return `Welcome, ${entry}. You are number ${array.length} in line.`;
 function nowServing(array) {
   if(array>[]) {
     return `Currently serving ${array.shift()}.`
-  }
-  else {
+  }else{
     return "There is nobody waiting to be served!"
   }
 }
