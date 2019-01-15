@@ -31,6 +31,8 @@ var line=[];
       line.push(` ${i+1}. ${array[i]}`)
       }
       return "The line is currently:" + line;
+  }else{
+      return "The line is currently empty."
   }
 }
 
