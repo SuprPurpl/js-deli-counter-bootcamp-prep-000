@@ -10,16 +10,15 @@ array.push(entry);
 return `Welcome, ${entry}. You are number ${array.length} in line.`;
 }
 
-
 //Step 2: "Get served"
 
 function nowServing(array) {
-	if (array.length <= 0){
-		console.log('There is nobody waiting to be served!');
-    }else{ 
-		console.log(array[0]);
-		array.shift(array[0]);
-	}
+  if(array>[]) {
+    return `Currently serving ${array.shift()}.`
+  }
+  else {
+    return "There is nobody waiting to be served!"
+  }
 }
 
 
