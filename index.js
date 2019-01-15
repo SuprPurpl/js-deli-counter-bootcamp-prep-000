@@ -28,8 +28,8 @@ function currentLine(array){
 var line=[];
   if(array>[]){
     for(let i=0;i<array.length;i++){
-      line.push(` ${
-    }
+      line.push(` ${i+1}.  `
+      }
   }
 }
 
